@@ -19,7 +19,7 @@ const BreakingNews = () => {
 
 
     return (
-        <div className='flex justify-between px-3 bg-base-300 py-2'>
+        <div className='flex justify-between px-3 bg-base-300 py-2 mb-4'>
             <button className="btn bg-pink-500 text-white">Letest news:</button>
             <Marquee pauseOnHover>
             {
