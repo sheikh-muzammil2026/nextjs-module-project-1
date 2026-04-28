@@ -34,7 +34,7 @@ const NewsDetailsPage = async({params}) => {
   console.log(news);
 
     return (
-    <div className="grid grid-cols-12 gap-2 mt-5">
+    <div className="grid grid-cols-12 gap-4 mt-5">
       <div className="col-span-3 " ><LeftSidebar  news_category={news_category} activeID={id} /></div>
       <div className="col-span-6"><AllNews news={news}  /></div>
       <div className="col-span-3 " > <RightSidebar /></div>
